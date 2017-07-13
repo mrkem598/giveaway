@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import fetch from 'isomorphic-fetch'
 import Item from './Item'
 
 class ItemList extends Component {

@@ -1,4 +1,3 @@
-
 import FaHeart from 'react-icons/lib/fa/heart'
 import { Component } from 'react'
 
