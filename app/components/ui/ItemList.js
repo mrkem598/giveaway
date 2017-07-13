@@ -16,6 +16,12 @@ class ItemList extends Component {
             },
             {
                 item: "Shose",
+                donatedBy: "Mohammed",
+                email: "mohakemal9@gmail.com",
+                thumbnail: "../assets/shose2.jpg"
+            },
+            {
+                item: "Shose",
                 email: "mohakemal9@gmail.com",
                 thumbnail: "../assets/shose.jpg"
             },
@@ -42,7 +48,8 @@ class ItemList extends Component {
     	const { items } = this.state
         return (
             <div className="item-list">
-                <h1>Items Ready For Donation</h1>
+                <h1>Items Ready For Donation: Select your Item you would like to get?</h1>
+
                 {items.map(
                 	(data, i) =>
                 		<Item key={i}

@@ -3,9 +3,7 @@ import MainMenu from './MainMenu'
 const Home = () =>
     <div className="home">
         <MainMenu className="home-page-menu"/>
-        <div id="homebox">
-            <h1>To Donate or Get Donation Never Get Easy before This App</h1>
-            </div>
+        <div id="homebox"></div>
     </div>
 
 export default Home
