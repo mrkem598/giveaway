@@ -39,12 +39,11 @@ html, body {
 #homebox {
     color: #E1F5F5;
     text-shadow: 5px -5px #0C3B20;
-    font-family: "Architects Daughter", sans-serif;
-    font-size: 4em;
     display: flex;
     min-width: 100%;
-    min-height: 1000px;
+    min-height: 900px;
     background-image: url("../assets/giveaway.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.9;
